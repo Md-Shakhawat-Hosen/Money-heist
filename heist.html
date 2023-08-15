@@ -13,15 +13,15 @@
       <div class=" grid lg:grid-cols-3 gap-4">
         <div class="bg-amber-800 p-11 font-bold text-center text-white">
         <h1 class="text-4xl mb-4">Deposit</h1>
-         <h2 class="text-3xl">BDT-<span>00</span></h2>
+         <h2 class="text-3xl">BDT-<span id="depo-tk">00</span></h2>
      </div>
         <div class="bg-amber-600 p-11 font-bold  text-center text-white">
         <h1 class="text-4xl mb-4">Withdraw</h1>
-         <h2 class="text-3xl">BDT-<span>00</span></h2>
+         <h2 class="text-3xl">BDT-<span id="withdraw-balance">00</span></h2>
      </div>
         <div class="bg-amber-800 p-11 font-bold  text-center text-white">
         <h1 class="text-4xl mb-4">Balance</h1>
-         <h2 class="text-3xl">BDT-<span>00</span></h2>
+         <h2 class="text-3xl">BDT-<span id="balance">00</span></h2>
      </div>
       </div>
 
@@ -29,17 +29,17 @@
          <div class="flex justify-center shadow-2xl">
         
           <div class="">
-            <input class="block mb-4 py-3 px-2 w-60 rounded-sm mt-10" placeholder="Enter your amount" type="text" name="" id="">
+            <input class="block mb-4 py-3 px-2 w-60 rounded-sm mt-10" placeholder="Enter your amount" type="text" name="" id="deposit-input">
          
-          <button class="block bg-orange-400 px-6 py-3 text-white my-5 rounded-lg hover:bg-orange-600 font-bold">Deposit</button>
+          <button id="depositId" class="block bg-orange-400 px-6 py-3 text-white my-5 rounded-lg hover:bg-orange-600 font-bold">Deposit</button>
           </div>
          </div>
          <div class="flex justify-center shadow-2xl">
         
           <div class="">
-            <input class="block mb-4 py-3 px-2 w-60 rounded-sm mt-10" placeholder="Enter your amount" type="text" name="" id="">
+            <input class="block mb-4 py-3 px-2 w-60 rounded-sm mt-10" placeholder="Enter your amount" type="text" name="" id="withdrawInput">
          
-          <button class="block bg-orange-400 px-6 py-3 text-white my-5 rounded-lg hover:bg-orange-600 font-bold">Withdraw</button>
+          <button id="withdrawId" class="block bg-orange-400 px-6 py-3 text-white my-5 rounded-lg hover:bg-orange-600 font-bold">Withdraw</button>
           </div>
          </div>
        </div>

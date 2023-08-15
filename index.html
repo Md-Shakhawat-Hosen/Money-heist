@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/4ad39c9065.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <section class="max-w-screen-xl mx-auto px-10 mt-32">
@@ -15,7 +16,15 @@
           <div class="">
             <h1 class="text-5xl mb-4 text-amber-500">Please Login</h1>
             <input class="block mb-4 py-3 px-2 w-60 rounded-sm mt-10" placeholder="abc@gmail.com" type="email" name="" id="login-input-email">
-         <input class="py-3 px-2 w-60 rounded-sm" type="password" placeholder="Enter your password" name="" id="login-input-password">
+         <!-- <input class="py-3 px-2 w-60 rounded-sm" type="password" placeholder="Enter your password" name="" id="login-input-password"> -->
+
+         <div class=" mx-auto flex gap-4">
+        <input class="px-2 py-3 w-60 rounded-sm" type="password" placeholder="Enter your password" name="" id="login-input-password">
+    <div id="eye" class="relative mt-3 w-6">
+        <!-- <i id="eye-mela" class="fa-solid fa-eye absolute"></i> -->
+        <i id="eye-bondo" class="fa-solid fa-eye-slash" title="show your password"></i>
+    </div>
+    </div>
           <button id="submit-btn" class="block bg-orange-400 px-6 py-3 text-white my-5 rounded-lg hover:bg-orange-600 font-bold">submit</button>
           </div>
          </div>
